@@ -23,6 +23,8 @@ function upload_max_file_size() {
     if (isset($_POST['submit'])) {
         $color = $_POST['color'];
         update_option('max_file_size', $color);
+        //redirect on plugin dashboard page
+        echo "<script>window.location='" . $_SERVER["REQUEST_URI"] . "'</script>";
     }
 }
 add_filter('upload_size_limit', 'ashu_increase_upload');
