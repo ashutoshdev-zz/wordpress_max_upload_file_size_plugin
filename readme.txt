@@ -1,9 +1,8 @@
 *---------------------- Ashutosh Increase upload limit ----------------------*
 Contributors: Ashutosh Kumar
-
 Tags: increase, upload, limit, up to, 250Mb
 Requires at least: 3.0.1
-Tested up to: 3.8
+Tested up to: 4.0
 Stable tag: 1.1
 Increase upload size limit up to 250Mb and more
 
@@ -25,7 +24,7 @@ Created By: https://www.facebook.com/ashutosh.kr.upadhyay
 
 * In the admin panel under plugins page, click Add New
 * go to Upload tab
-* browse "ashutosh_upload_max_file_size" and click install now
+* browse "upload_max_file_size" and click install now
 * Click Active plugin
 * Increase size by click on max_file_size menu on the left hand side
 * Click on max_file_size and then enter the value in bytes (Like: Like 262144000 bytes = 250MB)
@@ -34,7 +33,7 @@ Created By: https://www.facebook.com/ashutosh.kr.upadhyay
 = Manual =
 
 * Extract zip file to your wp-content/plugins directory.
-* In the admin panel under plugins, activate "ashutosh_upload_max_file_size".
+* In the admin panel under plugins, activate "upload_max_file_size".
 * Enjoy!
 
 
