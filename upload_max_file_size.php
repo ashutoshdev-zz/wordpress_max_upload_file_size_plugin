@@ -1,6 +1,6 @@
 <?php
 /*
-  Plugin Name: ashutosh_upload_max_file_size
+  Plugin Name: upload_max_file_size
   Description: increase, upload, limit, up to, 250Mb
   Author:Ashutosh Kumar
   Plugin URI: https://www.facebook.com/ashutosh.kr.upadhyay
